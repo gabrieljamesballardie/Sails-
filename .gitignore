@@ -1,0 +1,40 @@
+# ---- Java / Gradle ----
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+build/
+out/
+bin/
+
+# IntelliJ / Eclipse / VS Code
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.vscode/
+
+# OS / Misc
+.DS_Store
+Thumbs.db
+*.log
+
+# Run / runtime data (local worlds, configs generated at runtime)
+run/
+
+# Generated resources (datagen output)
+src/generated/
+
+# Forge / cache artifacts
+**/accesstransform.log
+
+# Archives
+*.jar
+!gradle/libs.versions.toml
+
+# Crash reports
+crash-reports/
+
+# Local environment files
+*.local
