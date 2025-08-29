@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "sailsplus:block/mast_horizontal_z"
+    },
+    "axis=y": {
+      "model": "sailsplus:block/mast_vertical"
+    },
+    "axis=z": {
+      "model": "sailsplus:block/mast_horizontal_z",
+      "y": 90
+    }
+  }
+}
