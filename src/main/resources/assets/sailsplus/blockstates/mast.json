@@ -1,16 +1,21 @@
 {
   "variants": {
-    "axis=x": {
-      "model": "sailsplus:block/mast",
-      "x": 90
-    },
-    "axis=y": {
-      "model": "sailsplus:block/mast"
-    },
-    "axis=z": {
-      "model": "sailsplus:block/mast",
-      "y": 90,
-      "x": 90
-    }
+    "axis=y,flush_side=none": { "model": "sailsplus:block/mast" },
+    "axis=y,flush_side=north": { "model": "sailsplus:block/mast" },
+    "axis=y,flush_side=south": { "model": "sailsplus:block/mast" },
+    "axis=y,flush_side=east": { "model": "sailsplus:block/mast" },
+    "axis=y,flush_side=west": { "model": "sailsplus:block/mast" },
+
+    "axis=x,flush_side=none": { "model": "sailsplus:block/mast", "x": 90 },
+    "axis=x,flush_side=north": { "model": "sailsplus:block/mast_horizontal_x_flush_north", "x": 90 },
+    "axis=x,flush_side=south": { "model": "sailsplus:block/mast_horizontal_x_flush_south", "x": 90 },
+    "axis=x,flush_side=east": { "model": "sailsplus:block/mast", "x": 90 },
+    "axis=x,flush_side=west": { "model": "sailsplus:block/mast", "x": 90 },
+
+    "axis=z,flush_side=none": { "model": "sailsplus:block/mast", "y": 90, "x": 90 },
+    "axis=z,flush_side=east": { "model": "sailsplus:block/mast_horizontal_z_flush_east", "y": 90, "x": 90 },
+    "axis=z,flush_side=west": { "model": "sailsplus:block/mast_horizontal_z_flush_west", "y": 90, "x": 90 },
+    "axis=z,flush_side=north": { "model": "sailsplus:block/mast", "y": 90, "x": 90 },
+    "axis=z,flush_side=south": { "model": "sailsplus:block/mast", "y": 90, "x": 90 }
   }
 }
